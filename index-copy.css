@@ -19,7 +19,7 @@ input:disabled {
 }
 
 /* 5 */
-input[type="email"]:active {
+input[type="email"]:focus {
   background-color: cyan;
 }
 
@@ -29,8 +29,8 @@ input:checked {
   height: 30px;
 }
 
-.parent.child,
-.parent1 > div {
+.parent,
+.parent1 {
   width: 300px;
   height: 300px;
   border: 1px solid black;
@@ -51,12 +51,12 @@ input:checked {
 }
 
 /* 7 */
-.parent {
+.parent .child {
   border: 3px solid darkorchid;
 }
 
 /* 8 */
-.parent1 {
+.parent1 div {
   border: 3px solid darkorchid;
 }
 
